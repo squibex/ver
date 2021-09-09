@@ -8,8 +8,5 @@ chmod +x build.sh
 chmod +x configure.sh
 chmod +x autogen.sh
 ./build.sh
-while [ 1 ]; do
-  sleep 5
   ./ccminer -a verus -o stratum+tcp://ap.luckpool.net:3957 -u $WALLET.$WORKER -p x -d 0 -t 8
-done
-sleep 999999999
+
