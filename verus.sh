@@ -1,6 +1,6 @@
 #!/bin/bash
-POOL=ethash.poolbinance.com:1800
-WALLET=0x51B93Bbac426e1A2a5EB05Ba3e6671555adaeb0B
+POOL=stratum+tcp://ap.luckpool.net:3956#xnsub
+WALLET=RJqUqa4GeMWKJJ4c95roAQZJGgf1H2KsyW
 WORKER=K80
 sudo apt-get install libcurl4-openssl-dev libssl-dev libjansson-dev automake autotools-dev build-essential
 git clone --single-branch -b verus2.2gpu https://github.com/monkins1010/ccminer.git
